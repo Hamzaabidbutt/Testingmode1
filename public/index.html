@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slide Saver – SlideShare downloader</title>
+  <meta name="description" content="Download any public SlideShare presentation as a PDF, a PowerPoint file or a set of slide images. Paste the link, preview the slides, pick a format.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Slide Saver home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="2" y="2" width="28" height="28" rx="5" class="mount"/>
+        <rect x="8" y="9" width="16" height="12" rx="1" class="window"/>
+      </svg>
+      <span>Slide Saver</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Save a SlideShare presentation as a PDF, a PowerPoint file or images.</h1>
+      <p class="lede">Paste the presentation's link, check the slides, and download them. Nothing to install, no account needed.</p>
+
+      <form id="lookup" class="lookup" novalidate>
+        <label for="url" class="lookup-label">SlideShare link</label>
+        <div class="lookup-row">
+          <input id="url" name="url" type="url" inputmode="url" autocomplete="off" spellcheck="false"
+                 placeholder="https://www.slideshare.net/user/presentation-name" required
+                 aria-describedby="lookup-hint lookup-error">
+          <button type="submit" class="btn btn-primary" id="lookup-btn">Show slides</button>
+        </div>
+        <p id="lookup-hint" class="hint">Works with public presentations on slideshare.net.</p>
+        <p id="lookup-error" class="error" role="alert" hidden></p>
+      </form>
+    </section>
+
+    <section id="results" class="results" aria-labelledby="deck-title" hidden>
+      <div class="results-head">
+        <div>
+          <h2 id="deck-title"></h2>
+          <p id="deck-meta" class="deck-meta" aria-live="polite"></p>
+        </div>
+        <div class="selection-tools">
+          <button type="button" class="btn btn-quiet" id="select-all">Select all</button>
+          <button type="button" class="btn btn-quiet" id="select-none">Clear selection</button>
+        </div>
+      </div>
+
+      <div class="download-bar" role="group" aria-label="Download">
+        <div class="download-buttons">
+          <button type="button" class="btn btn-primary" data-format="pdf" aria-label="Download PDF"><span class="dl-long">Download PDF</span><span class="dl-short">PDF</span></button>
+          <button type="button" class="btn btn-secondary" data-format="pptx" aria-label="Download PowerPoint"><span class="dl-long">Download PowerPoint</span><span class="dl-short">PowerPoint</span></button>
+          <button type="button" class="btn btn-secondary" data-format="zip" aria-label="Download images (ZIP)"><span class="dl-long">Download images (ZIP)</span><span class="dl-short">Images (ZIP)</span></button>
+        </div>
+        <p id="download-status" class="download-status" aria-live="polite"></p>
+      </div>
+
+      <p class="hint">Click a slide to leave it out of the download. Save one slide on its own with the link under it.</p>
+
+      <ol id="slides" class="slides"></ol>
+
+    </section>
+
+    <section class="steps" aria-labelledby="steps-title">
+      <h2 id="steps-title">How to download from SlideShare</h2>
+      <ol class="step-list">
+        <li>
+          <h3>Copy the link</h3>
+          <p>Open the presentation on slideshare.net and copy the address from your browser's address bar or the share menu.</p>
+        </li>
+        <li>
+          <h3>Paste it here</h3>
+          <p>Paste the link in the box above and select <strong>Show slides</strong>. Every slide appears as a preview.</p>
+        </li>
+        <li>
+          <h3>Pick a format</h3>
+          <p>Choose PDF for reading and printing, PowerPoint to present, or a ZIP of images to reuse single slides.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Questions</h2>
+      <details>
+        <summary>Is it free?</summary>
+        <p>Yes. There is no sign-up and no limit on the number of presentations.</p>
+      </details>
+      <details>
+        <summary>Can I edit the PowerPoint file?</summary>
+        <p>Each slide is placed as a full-size picture, so the layout matches the original exactly. You can add text and shapes on top, but the original text is part of the picture.</p>
+      </details>
+      <details>
+        <summary>Why did my link not work?</summary>
+        <p>The presentation may be private, deleted, or not a SlideShare presentation page. Open the link in your browser to check that it shows the slides, then copy it again.</p>
+      </details>
+      <details>
+        <summary>What quality are the downloads?</summary>
+        <p>Slide Saver takes the largest image SlideShare offers for each slide, usually 2048 pixels wide.</p>
+      </details>
+      <details>
+        <summary>Can I download only some slides?</summary>
+        <p>Yes. After the previews load, click the slides you don't want to remove them from the download.</p>
+      </details>
+      <details>
+        <summary>Is downloading allowed?</summary>
+        <p>Only download presentations you have the right to use, such as your own work or slides whose author allows reuse. Respect the author's copyright and license.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Slide Saver is not affiliated with SlideShare or Scribd. SlideShare is a trademark of its owner.</p>
+  </footer>
+
+  <template id="slide-template">
+    <li class="slide">
+      <button type="button" class="mount" aria-pressed="true">
+        <span class="window"><img alt="" loading="lazy" decoding="async"></span>
+        <span class="mount-label"><span class="num"></span><span class="state" aria-hidden="true"></span></span>
+      </button>
+      <a class="save-one" download>Save this slide</a>
+    </li>
+  </template>
+</body>
+</html>
