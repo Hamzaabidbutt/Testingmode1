@@ -1,0 +1,7 @@
+media/
+work/
+out/
+vo/
+__pycache__/
+*.pyc
+models/

@@ -1,0 +1,2359 @@
+{
+ "project": {
+  "title": "Avengers: Doomsday - Final Trailer Breakdown",
+  "source": "media/trailer.mp4",
+  "output": "out/avengers_doomsday_breakdown.mp4",
+  "resolution": [
+   1920,
+   1080
+  ],
+  "fps": "source",
+  "voice": {
+   "engine": "rhvoice",
+   "voice": "alan",
+   "rate": 100,
+   "pitch": 96
+  },
+  "music": "score",
+  "music_gain_db": -5,
+  "duck_music_db": -9,
+  "duck_src_db": -17,
+  "lufs": -14,
+  "crf": 17,
+  "preset": "medium",
+  "burn_captions": false,
+  "intro_chapter": "Cold open"
+ },
+ "segments": [
+  {
+   "id": "hook_doom",
+   "type": "clip",
+   "in": "1:23.9",
+   "out": "1:31.9",
+   "music": "off",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "z": 1.07,
+     "ease": "linear"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "quote",
+     "text": "All of you have lived *stolen lives.*",
+     "speaker": "Doctor Doom",
+     "start": 0.55,
+     "end": "end-0.1",
+     "reveal": 6.0
+    }
+   ]
+  },
+  {
+   "id": "hook_steve",
+   "type": "clip",
+   "in": "1:16.9",
+   "out": "1:21.0",
+   "transition": "whip",
+   "music": "mid",
+   "vo": "Doctor Doom thinks the heroes have been living stolen lives. [pause 250] And the first person this trailer shows us... is the one man who actually did."
+  },
+  {
+   "id": "hook_stones",
+   "type": "clip",
+   "in": "0:53.6",
+   "out": "0:55.2",
+   "transition": "glitch",
+   "music": "mid",
+   "min_speed": 0.35,
+   "vo": "He went back in time... and kept a life that was never his."
+  },
+  {
+   "id": "hook_sky",
+   "type": "freeze",
+   "at": "1:33.4",
+   "transition": "whip",
+   "music": "mid",
+   "enhance": {
+    "gamma": 2.0,
+    "contrast": 1.3,
+    "brightness": 1.2,
+    "start": 0.3,
+    "ramp": 1.2
+   },
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "z": 1.08,
+     "ease": "linear"
+    }
+   ],
+   "vo": "There are two other Earths, hanging over Manhattan.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.181,
+     "y": 0.417,
+     "r": 0.05,
+     "start": 1.3
+    },
+    {
+     "type": "circle",
+     "x": 0.707,
+     "y": 0.34,
+     "r": 0.06,
+     "start": 1.6,
+     "silent": true
+    }
+   ]
+  },
+  {
+   "id": "hook_hammer",
+   "type": "clip",
+   "in": "2:37.3",
+   "out": "2:40.6",
+   "transition": "whip",
+   "music": "high",
+   "min_speed": 0.4,
+   "vo": "And when the war comes, Steve is back... [pause 200] just not with the shield."
+  },
+  {
+   "id": "title_main",
+   "type": "title",
+   "kicker": "Final trailer breakdown",
+   "title": "Avengers: Doomsday",
+   "sub": "Every clue, every cameo, and what Doom means by stolen lives",
+   "bg_at": "2:47.6",
+   "dur": 4.2,
+   "transition": "flash",
+   "music": "mid",
+   "chapter": "The final trailer"
+  },
+  {
+   "id": "intro_date",
+   "type": "clip",
+   "in": "2:27.0",
+   "out": "2:33.6",
+   "transition": "fade",
+   "music": "low",
+   "vo": "Marvel released this final trailer on November twenty-third, four weeks before Avengers Doomsday opens on December eighteenth.",
+   "overlays": [
+    {
+     "type": "text",
+     "text": "IN THEATERS DECEMBER 18",
+     "x": 0.5,
+     "y": 0.2,
+     "font": "mono_bold",
+     "size": 26,
+     "color": "accent",
+     "tracking": 8,
+     "start": 1.0,
+     "end": "end-0.3"
+    }
+   ]
+  },
+  {
+   "id": "intro_map",
+   "type": "timeline",
+   "kicker": "Three minutes, six movements",
+   "title": "How the trailer is built",
+   "transition": "whip",
+   "music": "low",
+   "highlight": 2,
+   "events": [
+    {
+     "label": "The farmhouse",
+     "sub": "0:00",
+     "at": "0:02.0"
+    },
+    {
+     "label": "The flashback",
+     "sub": "0:49",
+     "at": "0:53.9"
+    },
+    {
+     "label": "Doom",
+     "sub": "1:23",
+     "at": "1:25.2"
+    },
+    {
+     "label": "Assembly",
+     "sub": "1:40",
+     "at": "2:08.4"
+    },
+    {
+     "label": "The war",
+     "sub": "2:17",
+     "at": "2:38.6"
+    },
+    {
+     "label": "The tag",
+     "sub": "2:50",
+     "at": "2:52.0"
+    }
+   ],
+   "vo": "It runs just over three minutes, and it plays almost like a short film. [pause 150] It starts on a farmhouse porch, detours through a funeral, and ends in a war."
+  },
+  {
+   "id": "intro_idea",
+   "type": "card",
+   "kicker": "The idea underneath",
+   "text": "What does it cost to live a life you were *never supposed to have?*",
+   "bg_at": "0:37.0",
+   "transition": "fade",
+   "music": "low",
+   "size": 66,
+   "vo": "And nearly every scene circles one idea. [pause 250] What it costs to live a life you were never supposed to have. [pause 250] As we go, I'll flag what's confirmed, what's a theory, and what's pure speculation.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "x": 0.4,
+     "y": 790,
+     "start": "62%"
+    },
+    {
+     "type": "tag",
+     "kind": "theory",
+     "x": 0.56,
+     "y": 790,
+     "start": "72%"
+    },
+    {
+     "type": "tag",
+     "kind": "speculation",
+     "x": 0.74,
+     "y": 790,
+     "start": "82%"
+    }
+   ]
+  },
+  {
+   "id": "p1_title",
+   "type": "title",
+   "number": 1,
+   "kicker": "Part one",
+   "title": "The life he chose",
+   "bg_at": "0:59.8",
+   "dur": 3.2,
+   "transition": "glitch",
+   "music": "mid"
+  },
+  {
+   "id": "p1_porch",
+   "type": "clip",
+   "in": "0:00.4",
+   "out": "0:03.7",
+   "transition": "fade",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "z": 1.1
+    }
+   ],
+   "vo": "We open on a porch. [pause 150] Yellow siding, a rocking chair, a screen door."
+  },
+  {
+   "id": "p1_door",
+   "type": "freeze",
+   "at": "0:01.9",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "30%",
+     "z": 1.05
+    },
+    {
+     "t": "45%",
+     "x": 0.43,
+     "y": 0.56,
+     "z": 1.7
+    }
+   ],
+   "vo": "Quiet, and nothing like the way an Avengers trailer usually begins. [pause 200] But look at the glass in the door. There's a silhouette in it... a figure, standing very still. [pause 200] First frame of the trailer, and someone is already at the door.",
+   "overlays": [
+    {
+     "type": "spotlight",
+     "x": 0.43,
+     "y": 0.655,
+     "rx": 0.06,
+     "ry": 0.1,
+     "start": "44%"
+    },
+    {
+     "type": "bracket",
+     "x": 0.43,
+     "y": 0.655,
+     "w": 0.08,
+     "h": 0.15,
+     "start": "48%",
+     "label": "Figure in the glass"
+    },
+    {
+     "type": "counter",
+     "n": 1,
+     "total": 14,
+     "label": "Detail",
+     "start": "40%"
+    },
+    {
+     "type": "tag",
+     "kind": "clue",
+     "start": "52%"
+    }
+   ]
+  },
+  {
+   "id": "p1_couple",
+   "type": "clip",
+   "in": "0:05.6",
+   "out": "0:15.0",
+   "music": "low",
+   "vo": "Then Peggy Carter... [pause 200] and Steve. Older, bearded, and for the first time in the MCU, a father. [pause 150] Hayley Atwell and Chris Evans, back together, and the trailer hands this family its entire opening act.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Peggy Carter",
+     "role": "Hayley Atwell",
+     "start_src": "0:09.5",
+     "end_src": "0:12.0"
+    },
+    {
+     "type": "lower_third",
+     "name": "Steve Rogers",
+     "role": "Chris Evans",
+     "start_src": "0:12.3",
+     "end_src": "0:14.95"
+    }
+   ]
+  },
+  {
+   "id": "p1_speech",
+   "type": "clip",
+   "in": "0:16.6",
+   "out": "0:37.5",
+   "transition": "fade",
+   "music": "off",
+   "overlays": [
+    {
+     "type": "quote",
+     "text": "Steven Grant Rogers. Do you think that boy doesn't know who you are?",
+     "speaker": "Peggy Carter",
+     "start_src": "0:17.0",
+     "end_src": "0:27.9",
+     "reveal": 3.5
+    },
+    {
+     "type": "quote",
+     "text": "Every time you walk him to school, or kiss him goodnight...",
+     "speaker": "Peggy Carter",
+     "start_src": "0:28.1",
+     "end_src": "0:32.7",
+     "reveal": 2.5
+    },
+    {
+     "type": "quote",
+     "text": "You think for an instant he doesn't *know you?*",
+     "speaker": "Peggy Carter",
+     "start_src": "0:33.0",
+     "end_src": "0:37.4",
+     "reveal": 2.5
+    }
+   ]
+  },
+  {
+   "id": "p1_era",
+   "type": "freeze",
+   "at": "0:32.6",
+   "transition": "whip",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "22%",
+     "x": 0.58,
+     "y": 0.5,
+     "z": 1.3
+    },
+    {
+     "t": "45%",
+     "x": 0.58,
+     "y": 0.5,
+     "z": 1.3
+    },
+    {
+     "t": "62%",
+     "x": 0.2,
+     "y": 0.52,
+     "z": 1.3
+    },
+    {
+     "t": "85%",
+     "z": 1.0
+    }
+   ],
+   "vo": "Notice what the edit is doing under her words. A cowboy hat, a bicycle, a vintage car on a country road. [pause 200] We watch a whole childhood go by in about ten seconds, and it's a mid-century childhood. Every car and every costume says this boy grew up decades ago.",
+   "overlays": [
+    {
+     "type": "callout",
+     "x": 0.6,
+     "y": 0.5,
+     "text": "The son",
+     "dx": 0.05,
+     "dy": -0.16,
+     "start": "18%",
+     "end": "52%"
+    },
+    {
+     "type": "callout",
+     "x": 0.15,
+     "y": 0.55,
+     "text": "Vintage car",
+     "dx": 0.05,
+     "dy": -0.2,
+     "start": "60%",
+     "end": "84%"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "On screen",
+     "start": 0.8
+    }
+   ]
+  },
+  {
+   "id": "p1_baby",
+   "type": "freeze",
+   "at": "0:16.0",
+   "transition": "whip",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.52,
+     "y": 0.47,
+     "z": 1.18,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Rewind a few seconds and you'll see that same boy as a baby, in Steve's arms. [pause 150] And that's the point. Steve didn't just visit the past. He stayed... and he raised a family there.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.53,
+     "y": 0.44,
+     "r": 0.085,
+     "start": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p1_suit",
+   "type": "freeze",
+   "at": "0:18.3",
+   "transition": "whip",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": 1.2,
+     "x": 0.44,
+     "y": 0.55,
+     "z": 1.35
+    }
+   ],
+   "vo": "And then there's this. Steve in his workshop, holding his old uniform. [pause 150] Not the shield he gave away. The suit, with the star on the chest. [pause 250] He kept it.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.42,
+     "y": 0.55,
+     "r": 0.09,
+     "start": 1.3,
+     "label": "Old uniform"
+    },
+    {
+     "type": "counter",
+     "n": 2,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "clue",
+     "start": 1.6
+    }
+   ]
+  },
+  {
+   "id": "p1_arrival",
+   "type": "clip",
+   "in": "0:40.6",
+   "out": "0:43.25",
+   "transition": "dip",
+   "music": "off"
+  },
+  {
+   "id": "p1_ff",
+   "type": "freeze",
+   "at": "0:42.4",
+   "music": "low",
+   "vo": "Then, light in the yard. [pause 150] Four figures walk out of it: Johnny Storm, Ben Grimm, Sue Storm, and Reed Richards. [pause 200] The Fantastic Four, straight out of First Steps... and Steve, in silhouette, watching them come.",
+   "overlays": [
+    {
+     "type": "callout",
+     "x": 0.17,
+     "y": 0.36,
+     "text": "Johnny",
+     "dx": -0.04,
+     "dy": -0.1,
+     "start": "22%",
+     "size": 30
+    },
+    {
+     "type": "callout",
+     "x": 0.28,
+     "y": 0.37,
+     "text": "Ben",
+     "dx": -0.015,
+     "dy": -0.2,
+     "start": "30%",
+     "size": 30
+    },
+    {
+     "type": "callout",
+     "x": 0.37,
+     "y": 0.36,
+     "text": "Sue",
+     "dx": 0.015,
+     "dy": -0.2,
+     "start": "38%",
+     "size": 30
+    },
+    {
+     "type": "callout",
+     "x": 0.5,
+     "y": 0.36,
+     "text": "Reed",
+     "dx": 0.05,
+     "dy": -0.1,
+     "start": "46%",
+     "size": 30
+    },
+    {
+     "type": "callout",
+     "x": 0.84,
+     "y": 0.45,
+     "text": "Steve",
+     "dx": -0.05,
+     "dy": 0.22,
+     "start": "75%",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "id": "p1_reed",
+   "type": "clip",
+   "in": "0:43.3",
+   "out": "0:47.15",
+   "music": "off",
+   "overlays": [
+    {
+     "type": "quote",
+     "text": "Are you Steve Rogers?",
+     "speaker": "Reed Richards",
+     "start_src": "0:44.2",
+     "end_src": "0:46.2",
+     "reveal": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p1_828",
+   "type": "freeze",
+   "at": "0:44.6",
+   "transition": "whip",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.4,
+     "y": 0.42,
+     "z": 1.15,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Here's why that question matters. The Fantastic Four don't come from the main MCU universe. First Steps established their home as Earth eight twenty-eight.",
+   "overlays": [
+    {
+     "type": "hud",
+     "start": 0.2,
+     "label": "Earth-828 visitors"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "text": "Earth-828  ·  The Fantastic Four: First Steps (2025)",
+     "start": "45%"
+    }
+   ]
+  },
+  {
+   "id": "p1_crossing",
+   "type": "clip",
+   "in": "0:40.9",
+   "out": "0:43.25",
+   "transition": "zoom",
+   "music": "low",
+   "min_speed": 0.4,
+   "vo": "Someone crossed between realities... [pause 150] and came looking for him, by name."
+  },
+  {
+   "id": "p1_branch",
+   "type": "split",
+   "transition": "fade",
+   "title": "Which reality is this?",
+   "match": "?",
+   "music": "low",
+   "left": {
+    "at": "0:57.9",
+    "label": "Endgame  ·  2023",
+    "caption": "Steve leaves to return the stones"
+   },
+   "right": {
+    "at": "1:00.3",
+    "label": "The life he chose",
+    "caption": "A pickup truck, a yellow house, Peggy"
+   },
+   "vo": "And that reopens an argument fans have had since twenty nineteen. [pause 150] The Endgame directors said Steve's life with Peggy split off into its own branch reality. The writers said he'd been living in the main timeline all along.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "theory",
+     "label": "Unresolved",
+     "start": "40%"
+    }
+   ]
+  },
+  {
+   "id": "p1_matters",
+   "type": "freeze",
+   "transition": "whip",
+   "music": "low",
+   "vo": "This trailer doesn't settle it... [pause 150] but if visitors from another universe are knocking on his door, that answer suddenly matters.",
+   "at": "0:45.8",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.6,
+     "y": 0.42,
+     "z": 1.15,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "id": "p2_title",
+   "type": "title",
+   "number": 2,
+   "kicker": "Part two",
+   "title": "The cost of a happy ending",
+   "bg_at": "0:51.5",
+   "dur": 3.2,
+   "transition": "glitch",
+   "music": "mid"
+  },
+  {
+   "id": "p2_flashback",
+   "type": "clip",
+   "in": "0:48.9",
+   "out": "1:08.9",
+   "transition": "dip",
+   "music": "off",
+   "overlays": [
+    {
+     "type": "quote",
+     "text": "We did what we had to do to make the world right...",
+     "speaker": "Steve Rogers",
+     "start_src": "0:56.4",
+     "end_src": "1:01.6",
+     "reveal": 3.0
+    },
+    {
+     "type": "quote",
+     "text": "...but we didn't know those choices would have *consequences.*",
+     "speaker": "Steve Rogers",
+     "start_src": "1:04.4",
+     "end_src": "1:08.85",
+     "reveal": 3.2
+    }
+   ]
+  },
+  {
+   "id": "p2_reactor",
+   "type": "freeze",
+   "at": "0:51.5",
+   "transition": "whip",
+   "music": "mid",
+   "reveal": true,
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": 1.6,
+     "x": 0.585,
+     "y": 0.64,
+     "z": 1.6
+    },
+    {
+     "t": "55%",
+     "x": 0.585,
+     "y": 0.64,
+     "z": 1.6
+    },
+    {
+     "t": "75%",
+     "x": 0.585,
+     "y": 0.66,
+     "z": 2.0
+    }
+   ],
+   "vo": "Let's go back. Right after the studio logo, there's a wreath of flowers floating on dark water, and in the middle of it, an arc reactor. [pause 200] You can actually read the inscription. Proof that Tony Stark has a heart. [pause 300] This is Tony's funeral, from the end of Endgame.",
+   "overlays": [
+    {
+     "type": "spotlight",
+     "x": 0.585,
+     "y": 0.665,
+     "r": 0.075,
+     "start": 1.5
+    },
+    {
+     "type": "circle",
+     "x": 0.585,
+     "y": 0.665,
+     "r": 0.078,
+     "start": 1.9
+    },
+    {
+     "type": "text",
+     "text": "“PROOF THAT TONY STARK HAS A HEART”",
+     "x": 0.5,
+     "y": 0.9,
+     "font": "mono_bold",
+     "size": 28,
+     "color": "accent",
+     "tracking": 4,
+     "start": "52%"
+    },
+    {
+     "type": "counter",
+     "n": 3,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "Readable on screen",
+     "start": "52%"
+    }
+   ]
+  },
+  {
+   "id": "p2_stones",
+   "type": "freeze",
+   "at": "0:53.9",
+   "transition": "whip",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "40%",
+     "z": 1.0
+    },
+    {
+     "t": "60%",
+     "x": 0.45,
+     "y": 0.52,
+     "z": 1.35
+    },
+    {
+     "t": "88%",
+     "z": 1.05
+    }
+   ],
+   "vo": "Then the case. The Infinity Stones, the ones Steve volunteered to put back. [pause 200] And look at the color grade. This whole memory is drained to black and white... except the stones. [pause 200] The trailer is highlighting the exact thing that changed his life.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.53,
+     "y": 0.53,
+     "r": 0.05,
+     "start": "45%"
+    },
+    {
+     "type": "circle",
+     "x": 0.32,
+     "y": 0.5,
+     "r": 0.035,
+     "start": "50%",
+     "silent": true
+    },
+    {
+     "type": "circle",
+     "x": 0.29,
+     "y": 0.6,
+     "r": 0.035,
+     "start": "54%",
+     "silent": true
+    },
+    {
+     "type": "circle",
+     "x": 0.43,
+     "y": 0.39,
+     "r": 0.035,
+     "start": "58%",
+     "silent": true
+    },
+    {
+     "type": "counter",
+     "n": 4,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "clue",
+     "start": "48%"
+    }
+   ]
+  },
+  {
+   "id": "p2_bucky",
+   "type": "clip",
+   "in": "0:55.3",
+   "out": "0:58.3",
+   "music": "mid",
+   "vo": "Bucky watches him go. [pause 150] The time-travel helmet closes.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Bucky Barnes",
+     "role": "Sebastian Stan",
+     "start_src": "0:56.75",
+     "end_src": "0:57.35"
+    }
+   ]
+  },
+  {
+   "id": "p2_choice",
+   "type": "freeze",
+   "at": "1:00.3",
+   "transition": "whip",
+   "music": "low",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.6,
+     "y": 0.5,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "And over those images, Steve says they did what they had to do to make the world right. [pause 150] Then we cut to the life he chose. A vintage pickup..."
+  },
+  {
+   "id": "p2_peggy",
+   "type": "freeze",
+   "music": "low",
+   "vo": "Peggy, in a nineteen forties suit. [pause 200] The choice... and then the consequences, walking into his living room.",
+   "at": "1:03.3",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.38,
+     "y": 0.42,
+     "z": 1.18,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "id": "p2_family",
+   "type": "clip",
+   "in": "1:04.7",
+   "out": "1:12.9",
+   "music": "low",
+   "vo": "Because that is literally what happens next. Reed and Sue, Johnny and Ben, standing by the Rogers family fireplace... [pause 200] while their teenage son takes it all in.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Sue Storm",
+     "role": "Vanessa Kirby",
+     "start_src": "1:04.9",
+     "end_src": "1:06.1"
+    }
+   ]
+  },
+  {
+   "id": "p2_age",
+   "type": "split",
+   "transition": "whip",
+   "title": "Do the math",
+   "match": "=",
+   "music": "low",
+   "left": {
+    "at": "1:12.2",
+    "label": "1:12  ·  His son",
+    "caption": "A teenager",
+    "camera": [
+     {
+      "t": 0,
+      "x": 0.33,
+      "y": 0.42,
+      "z": 1.15
+     },
+     {
+      "t": "end",
+      "x": 0.33,
+      "y": 0.42,
+      "z": 1.22
+     }
+    ]
+   },
+   "right": {
+    "at": "0:45.8",
+    "label": "0:45  ·  Steve",
+    "caption": "Middle-aged, not an old man",
+    "camera": [
+     {
+      "t": 0,
+      "x": 0.72,
+      "y": 0.42,
+      "z": 1.15
+     },
+     {
+      "t": "end",
+      "x": 0.72,
+      "y": 0.42,
+      "z": 1.22
+     }
+    ]
+   },
+   "vo": "Here's a detail I think matters more than it looks. When we last saw Steve in Endgame, he was an old man on a bench by the lake. [pause 200] The Steve in this trailer is middle-aged, and his son is a teenager.",
+   "overlays": [
+    {
+     "type": "counter",
+     "n": 5,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3,
+     "y": 1030
+    }
+   ]
+  },
+  {
+   "id": "p2_age_q",
+   "type": "card",
+   "kicker": "Two possibilities",
+   "text": "Decades in the past... or *something gave Steve his years back.*",
+   "bg_at": "1:19.0",
+   "transition": "fade",
+   "music": "low",
+   "size": 66,
+   "vo": "So either these scenes are set decades in the past, in the middle of his borrowed life... [pause 150] or something has given Steve his years back. [pause 200] Keep that in mind when we get to Doom.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p2_date",
+   "type": "clip",
+   "in": "1:21.0",
+   "out": "1:23.7",
+   "transition": "dip",
+   "music": "off"
+  },
+  {
+   "id": "p3_title",
+   "type": "title",
+   "number": 3,
+   "kicker": "Part three",
+   "title": "Stolen lives",
+   "bg_at": "1:25.2",
+   "dur": 3.2,
+   "transition": "glitch",
+   "music": "mid"
+  },
+  {
+   "id": "p3_cathedral",
+   "type": "clip",
+   "in": "1:23.55",
+   "out": "1:26.7",
+   "music": "mid",
+   "vo": "Back to Doom. He's standing in what looks like a cathedral, green light pouring through stained glass... [pause 150] and he's not alone.",
+   "min_speed": 0.4
+  },
+  {
+   "id": "p3_witches",
+   "type": "freeze",
+   "at": "1:26.4",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.45,
+     "y": 0.45,
+     "z": 1.08,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Three masked figures flank him. [pause 150] Marvel has already shown a costume labelled Latverian Witch, so these are almost certainly Doom's witches.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.255,
+     "y": 0.385,
+     "r": 0.045,
+     "start": 0.6
+    },
+    {
+     "type": "circle",
+     "x": 0.43,
+     "y": 0.355,
+     "r": 0.045,
+     "start": 0.9,
+     "silent": true
+    },
+    {
+     "type": "circle",
+     "x": 0.69,
+     "y": 0.445,
+     "r": 0.045,
+     "start": 1.2,
+     "silent": true
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "Latverian Witches",
+     "text": "Costume revealed by Marvel",
+     "start": "35%"
+    }
+   ]
+  },
+  {
+   "id": "p3_red",
+   "type": "freeze",
+   "at": "1:26.4",
+   "transition": "zoom",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "x": 0.66,
+     "y": 0.45,
+     "z": 1.35
+    },
+    {
+     "t": "end",
+     "x": 0.68,
+     "y": 0.45,
+     "z": 1.5,
+     "ease": "linear"
+    }
+   ],
+   "vo": "But look at the third one. A different robe, rust red... [pause 150] and some fans are already wondering if that's Wanda Maximoff. [pause 150] Nothing in the trailer confirms it.",
+   "overlays": [
+    {
+     "type": "spotlight",
+     "x": 0.69,
+     "y": 0.5,
+     "rx": 0.085,
+     "ry": 0.3,
+     "start": 0.3
+    },
+    {
+     "type": "counter",
+     "n": 6,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "speculation",
+     "text": "Wanda? Unconfirmed",
+     "start": "40%"
+    }
+   ]
+  },
+  {
+   "id": "p3_quote",
+   "type": "freeze",
+   "at": "1:25.2",
+   "transition": "whip",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.5,
+     "y": 0.45,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "And then there's the line that I think explains this entire movie. [pause 300] All of you have lived stolen lives. [pause 300] Now you must give them back. [pause 250] Think about who's in this trailer.",
+   "overlays": [
+    {
+     "type": "spotlight",
+     "x": 0.5,
+     "y": 0.47,
+     "r": 0.13,
+     "start": 0.3
+    },
+    {
+     "type": "quote",
+     "text": "All of you have lived *stolen lives.* Now you must give them back.",
+     "speaker": "Doctor Doom",
+     "start": 2.6,
+     "end": "end-0.2",
+     "reveal": 4.0
+    }
+   ]
+  },
+  {
+   "id": "p3_who1",
+   "type": "clip",
+   "in": "0:59.0",
+   "out": "1:01.2",
+   "transition": "whip",
+   "music": "mid",
+   "min_speed": 0.3,
+   "vo": "Steve, living a life he took from the past.",
+   "overlays": [
+    {
+     "type": "text",
+     "text": "A LIFE FROM THE PAST",
+     "x": 0.5,
+     "y": 0.2,
+     "font": "mono_bold",
+     "size": 24,
+     "color": "accent",
+     "tracking": 8,
+     "start": 0.3,
+     "end": "end-0.2"
+    }
+   ]
+  },
+  {
+   "id": "p3_who2",
+   "type": "clip",
+   "in": "0:41.3",
+   "out": "0:43.2",
+   "transition": "whip",
+   "music": "mid",
+   "min_speed": 0.3,
+   "vo": "The Fantastic Four, a family from another universe.",
+   "overlays": [
+    {
+     "type": "text",
+     "text": "A FAMILY FROM ANOTHER UNIVERSE",
+     "x": 0.5,
+     "y": 0.2,
+     "font": "mono_bold",
+     "size": 24,
+     "color": "accent",
+     "tracking": 8,
+     "start": 0.3,
+     "end": "end-0.2"
+    }
+   ]
+  },
+  {
+   "id": "p3_who3",
+   "type": "clip",
+   "in": "2:24.0",
+   "out": "2:26.9",
+   "transition": "whip",
+   "music": "mid",
+   "min_speed": 0.3,
+   "vo": "X-Men, played by the actors from Fox's films.",
+   "overlays": [
+    {
+     "type": "text",
+     "text": "HEROES FROM ANOTHER FRANCHISE",
+     "x": 0.5,
+     "y": 0.2,
+     "font": "mono_bold",
+     "size": 24,
+     "color": "accent",
+     "tracking": 8,
+     "start": 0.3,
+     "end": "end-0.2"
+    }
+   ]
+  },
+  {
+   "id": "p3_debtors",
+   "type": "card",
+   "kicker": "The theory",
+   "text": "Doom isn't calling the heroes villains. He's calling them *debtors.*",
+   "bg_at": "1:25.2",
+   "transition": "flash",
+   "music": "high",
+   "size": 70,
+   "vo": "Doom isn't calling the heroes villains. [pause 200] He's calling them debtors.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": 0.8
+    }
+   ]
+  },
+  {
+   "id": "p3_sky_dark",
+   "type": "clip",
+   "in": "1:32.6",
+   "out": "1:34.0",
+   "transition": "whip",
+   "music": "low",
+   "min_speed": 0.35,
+   "vo": "This next shot lasts about a second."
+  },
+  {
+   "id": "p3_sky",
+   "type": "freeze",
+   "at": "1:33.4",
+   "reveal": true,
+   "music": "mid",
+   "enhance": {
+    "gamma": 2.0,
+    "contrast": 1.3,
+    "brightness": 1.2,
+    "start": 1.2,
+    "ramp": 1.8
+   },
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.45,
+     "y": 0.42,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "And it's very dark, so let's brighten it. [pause 900] That's lower Manhattan at night, with One World Trade Center in the middle. [pause 150] And above it... two Earth-like planets, hanging in the sky.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.181,
+     "y": 0.417,
+     "r": 0.05,
+     "start": "64%",
+     "label": "Earth?",
+     "label_side": "right"
+    },
+    {
+     "type": "circle",
+     "x": 0.707,
+     "y": 0.34,
+     "r": 0.06,
+     "start": "70%",
+     "label": "Earth?",
+     "label_side": "right"
+    },
+    {
+     "type": "counter",
+     "n": 7,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "On screen",
+     "text": "Brightened for visibility",
+     "start": "66%"
+    }
+   ]
+  },
+  {
+   "id": "p3_incursion",
+   "type": "card",
+   "kicker": "In the comics",
+   "text": "An *incursion:* another Earth appears in your sky, right before two universes collide.",
+   "bg_at": "1:33.4",
+   "transition": "fade",
+   "music": "mid",
+   "size": 64,
+   "vo": "In Marvel comics, that image has a name. An incursion. [pause 150] It's what you see right before two universes collide... another Earth, filling your sky.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "theory",
+     "label": "Comics lore",
+     "start": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p3_clea",
+   "type": "freeze",
+   "at": "1:33.4",
+   "transition": "zoom",
+   "music": "mid",
+   "enhance": {
+    "gamma": 2.0,
+    "contrast": 1.3,
+    "brightness": 1.2
+   },
+   "camera": [
+    {
+     "t": 0,
+     "x": 0.68,
+     "y": 0.36,
+     "z": 1.5
+    },
+    {
+     "t": "end",
+     "x": 0.7,
+     "y": 0.35,
+     "z": 1.7,
+     "ease": "linear"
+    }
+   ],
+   "vo": "The MCU planted the word in Multiverse of Madness, when Clea tells Doctor Strange he caused one.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "MCU",
+     "text": "Doctor Strange in the Multiverse of Madness (2022)",
+     "start": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3_secretwars",
+   "type": "card",
+   "kicker": "What comes next",
+   "text": "Avengers: *Secret Wars*  ·  December 2027",
+   "bg_at": "2:46.8",
+   "transition": "glitch",
+   "music": "high",
+   "size": 72,
+   "vo": "And in the comics, incursions are exactly what lead to Secret Wars... [pause 150] which happens to be the title of the next Avengers movie, due in December twenty twenty-seven."
+  },
+  {
+   "id": "p3_thor",
+   "type": "clip",
+   "in": "1:35.2",
+   "out": "1:40.0",
+   "transition": "whip",
+   "music": "off"
+  },
+  {
+   "id": "p3_gauntlet",
+   "type": "freeze",
+   "at": "1:38.15",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": 1.3,
+     "x": 0.36,
+     "y": 0.6,
+     "z": 1.45
+    },
+    {
+     "t": "62%",
+     "x": 0.36,
+     "y": 0.6,
+     "z": 1.45
+    },
+    {
+     "t": "82%",
+     "x": 0.68,
+     "y": 0.48,
+     "z": 1.3
+    }
+   ],
+   "vo": "Thor brings down everything he has... and Doom just raises a hand. [pause 150] Look at the gauntlet. There's a symbol engraved on the wrist, and the lightning seems to break against his palm instead of going through it. [pause 200] In the comics, Doom is a scientist and a sorcerer. This looks like the sorcerer.",
+   "overlays": [
+    {
+     "type": "bracket",
+     "x": 0.335,
+     "y": 0.68,
+     "w": 0.12,
+     "h": 0.17,
+     "start": 1.4,
+     "end": "62%",
+     "label": "Engraved sigil"
+    },
+    {
+     "type": "counter",
+     "n": 8,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": "62%"
+    }
+   ]
+  },
+  {
+   "id": "p3_gold",
+   "type": "split",
+   "transition": "whip",
+   "title": "Blue... then gold",
+   "match": "→",
+   "music": "mid",
+   "left": {
+    "at": "1:36.9",
+    "label": "1:36  ·  Against Doom",
+    "caption": "Thor's familiar blue lightning"
+   },
+   "right": {
+    "at": "2:14.1",
+    "label": "2:14  ·  Later",
+    "caption": "Gold lightning"
+   },
+   "vo": "Hold on to that, because later in the trailer, Thor's lightning changes color. [pause 150] Against Doom, it's the familiar blue. In this later shot... it's gold.",
+   "overlays": [
+    {
+     "type": "counter",
+     "n": 9,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3,
+     "y": 1030
+    }
+   ]
+  },
+  {
+   "id": "p3_prayer",
+   "type": "freeze",
+   "at": "2:14.1",
+   "transition": "zoom",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.15
+    },
+    {
+     "t": "end",
+     "x": 0.6,
+     "y": 0.42,
+     "z": 1.35,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Remember the teaser from last December, where Thor prays to his father for strength? [pause 150] Gold lightning could be the answer to that prayer. [pause 200] It's a theory... but it's a striking change.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": "40%"
+    }
+   ]
+  },
+  {
+   "id": "p4_title",
+   "type": "title",
+   "number": 4,
+   "kicker": "Part four",
+   "title": "Every corner of the multiverse",
+   "bg_at": "2:08.4",
+   "dur": 3.2,
+   "transition": "glitch",
+   "music": "mid"
+  },
+  {
+   "id": "p4_city",
+   "type": "clip",
+   "in": "1:40.8",
+   "out": "1:46.9",
+   "music": "off"
+  },
+  {
+   "id": "p4_ring",
+   "type": "freeze",
+   "at": "1:45.4",
+   "transition": "whip",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.52,
+     "y": 0.53,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "That golden band floating over the city is one of Shang-Chi's Ten Rings. [pause 150] He's in this fight, and the man he's up against in this sequence is Gambit.",
+   "overlays": [
+    {
+     "type": "bracket",
+     "x": 0.52,
+     "y": 0.53,
+     "w": 0.48,
+     "h": 0.2,
+     "start": 0.9,
+     "label": "One of the Ten Rings"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "start": 1.3
+    }
+   ]
+  },
+  {
+   "id": "p4_tower",
+   "type": "freeze",
+   "at": "1:49.5",
+   "transition": "whip",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "25%",
+     "x": 0.4,
+     "y": 0.45,
+     "z": 1.3
+    },
+    {
+     "t": "45%",
+     "x": 0.4,
+     "y": 0.45,
+     "z": 1.3
+    },
+    {
+     "t": "62%",
+     "x": 0.65,
+     "y": 0.6,
+     "z": 1.3
+    },
+    {
+     "t": "88%",
+     "z": 1.0
+    }
+   ],
+   "vo": "And look at the skyline. The Avengers A, mounted on a tower right next to the Chrysler Building. [pause 150] That's the same patch of Midtown where Stark Tower stood in the first Avengers film. After everything, the A is back on the New York skyline.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.37,
+     "y": 0.43,
+     "r": 0.075,
+     "start": "18%",
+     "label": "Avengers A"
+    },
+    {
+     "type": "circle",
+     "x": 0.705,
+     "y": 0.66,
+     "r": 0.075,
+     "start": "40%",
+     "label": "Chrysler Building",
+     "label_side": "left"
+    },
+    {
+     "type": "counter",
+     "n": 10,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "clue",
+     "start": "20%"
+    }
+   ]
+  },
+  {
+   "id": "p4_young",
+   "type": "split",
+   "transition": "fade",
+   "title": "The next generation",
+   "music": "mid",
+   "left": {
+    "at": "1:48.25",
+    "label": "Cassie Lang",
+    "caption": "Kathryn Newton",
+    "camera": [
+     {
+      "t": 0,
+      "x": 0.45,
+      "y": 0.47,
+      "z": 1.25
+     }
+    ]
+   },
+   "right": {
+    "at": "1:48.6",
+    "label": "Kate Bishop",
+    "caption": "Hailee Steinfeld",
+    "camera": [
+     {
+      "t": 0,
+      "x": 0.66,
+      "y": 0.45,
+      "z": 1.25
+     }
+    ]
+   },
+   "vo": "Two younger heroes get a quick moment, too. Cassie Lang... and Kate Bishop, with Hailee Steinfeld back in the role. [pause 150] Blink and you'll miss them."
+  },
+  {
+   "id": "p4_fight",
+   "type": "clip",
+   "in": "1:54.5",
+   "out": "1:57.85",
+   "transition": "whip",
+   "music": "off"
+  },
+  {
+   "id": "p4_blast",
+   "type": "freeze",
+   "at": "1:55.2",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.35,
+     "y": 0.42,
+     "z": 1.15,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Here's a fight nobody expected. Captain America's shield, up against Cyclops' optic blast. [pause 150] Heroes fighting heroes usually means a misunderstanding...",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.31,
+     "y": 0.38,
+     "r": 0.05,
+     "start": 1.2,
+     "label": "Optic blast"
+    }
+   ]
+  },
+  {
+   "id": "p4_mansion",
+   "type": "freeze",
+   "at": "1:55.2",
+   "transition": "zoom",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "x": 0.7,
+     "y": 0.52,
+     "z": 1.35
+    },
+    {
+     "t": "end",
+     "x": 0.68,
+     "y": 0.5,
+     "z": 1.25,
+     "ease": "linear"
+    }
+   ],
+   "vo": "and look at where it happens. Wood paneling, a grand staircase, tall windows. [pause 150] That looks a lot like a mansion. Quite possibly, the X-Mansion.",
+   "overlays": [
+    {
+     "type": "bracket",
+     "x": 0.72,
+     "y": 0.58,
+     "w": 0.24,
+     "h": 0.32,
+     "start": "25%",
+     "label": "Grand staircase"
+    },
+    {
+     "type": "counter",
+     "n": 11,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": "55%"
+    }
+   ]
+  },
+  {
+   "id": "p4_hangar",
+   "type": "clip",
+   "in": "1:58.6",
+   "out": "2:00.65",
+   "transition": "whip",
+   "music": "off"
+  },
+  {
+   "id": "p4_four",
+   "type": "freeze",
+   "at": "2:01.8",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.42,
+     "y": 0.5,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Steve also ends up somewhere that looks like the Fantastic Four's headquarters. That's their number four, on the uniform right next to him.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.465,
+     "y": 0.625,
+     "r": 0.045,
+     "start": "45%",
+     "label": "4"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "On screen",
+     "start": "50%"
+    }
+   ]
+  },
+  {
+   "id": "p4_bucky",
+   "type": "freeze",
+   "at": "2:04.0",
+   "transition": "whip",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.6,
+     "y": 0.45,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Bucky's here too, with the team from Thunderbolts... the same group that ended that movie being sold to the public as the New Avengers.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.71,
+     "y": 0.37,
+     "r": 0.05,
+     "start": 0.8,
+     "label": "Bucky"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "Thunderbolts* (2025)",
+     "start": 1.2
+    }
+   ]
+  },
+  {
+   "id": "p4_wakanda_clip",
+   "type": "clip",
+   "in": "2:06.8",
+   "out": "2:09.15",
+   "transition": "whip",
+   "music": "off"
+  },
+  {
+   "id": "p4_wakanda",
+   "type": "freeze",
+   "at": "2:08.4",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.48,
+     "y": 0.52,
+     "z": 1.15,
+     "ease": "linear"
+    }
+   ],
+   "vo": "And this might be my favorite shot in the whole trailer. [pause 150] The Thing, in his Fantastic Four uniform, shaking hands with Wakanda's delegation.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.48,
+     "y": 0.54,
+     "r": 0.045,
+     "start": "40%",
+     "label": "Handshake"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "start": "45%"
+    }
+   ]
+  },
+  {
+   "id": "p4_shuri",
+   "type": "freeze",
+   "at": "2:08.85",
+   "transition": "whip",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.5,
+     "y": 0.42,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Shuri is there to see it. [pause 150] Reed Richards' family, meeting the most advanced nation on Earth. That's a scene comic fans have wanted for a very long time.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Shuri",
+     "role": "Letitia Wright",
+     "start": 0.4,
+     "end": "end-0.3"
+    }
+   ]
+  },
+  {
+   "id": "p5_title",
+   "type": "title",
+   "number": 5,
+   "kicker": "Part five",
+   "title": "To me, my X-Men",
+   "bg_at": "2:22.4",
+   "dur": 3.2,
+   "transition": "glitch",
+   "music": "high"
+  },
+  {
+   "id": "p5_doom_field",
+   "type": "freeze",
+   "at": "2:17.6",
+   "music": "high",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "z": 1.08,
+     "ease": "linear"
+    }
+   ],
+   "vo": "The final battle. Doom stands in the middle of a burning field with his arms open... and look at what's towering behind him. Giant machines, with glowing eyes.",
+   "overlays": [
+    {
+     "type": "spotlight",
+     "x": 0.52,
+     "y": 0.55,
+     "rx": 0.07,
+     "ry": 0.22,
+     "start": 0.4,
+     "end": "45%"
+    },
+    {
+     "type": "circle",
+     "x": 0.135,
+     "y": 0.25,
+     "r": 0.04,
+     "start": "62%"
+    },
+    {
+     "type": "circle",
+     "x": 0.86,
+     "y": 0.24,
+     "r": 0.04,
+     "start": "68%",
+     "silent": true
+    }
+   ]
+  },
+  {
+   "id": "p5_sentinels",
+   "type": "split",
+   "transition": "whip",
+   "title": "Same machines?",
+   "match": "=",
+   "music": "high",
+   "left": {
+    "at": "2:20.2",
+    "label": "2:20  ·  Behind Doom",
+    "caption": "Giant frames, glowing eyes"
+   },
+   "right": {
+    "at": "2:42.1",
+    "label": "2:42  ·  The final shot",
+    "caption": "Rising from the ground"
+   },
+   "vo": "Now compare them to what rises out of the ground at the very end of the trailer. Same glowing eyes, same towering frames. [pause 150] Those look like Sentinels, the mutant-hunting robots from X-Men lore.",
+   "overlays": [
+    {
+     "type": "counter",
+     "n": 12,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3,
+     "y": 1030
+    },
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": "60%"
+    }
+   ]
+  },
+  {
+   "id": "p5_personal",
+   "type": "freeze",
+   "at": "2:42.1",
+   "transition": "zoom",
+   "music": "high",
+   "camera": [
+    {
+     "t": 0,
+     "x": 0.75,
+     "y": 0.35,
+     "z": 1.3
+    },
+    {
+     "t": "end",
+     "x": 0.8,
+     "y": 0.3,
+     "z": 1.5,
+     "ease": "linear"
+    }
+   ],
+   "vo": "If Doom has Sentinels on his side, this stops being just a fight for the multiverse. [pause 200] For the X-Men, it's personal.",
+   "overlays": [
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p5_cyclops",
+   "type": "clip",
+   "in": "2:20.45",
+   "out": "2:23.9",
+   "transition": "whip",
+   "music": "off",
+   "overlays": [
+    {
+     "type": "quote",
+     "text": "To me, my *X-Men.*",
+     "speaker": "Cyclops",
+     "start_src": "2:21.5",
+     "end_src": "2:23.85",
+     "reveal": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p5_marsden",
+   "type": "freeze",
+   "at": "2:22.4",
+   "music": "high",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.48,
+     "y": 0.42,
+     "z": 1.15,
+     "ease": "linear"
+    }
+   ],
+   "vo": "To me, my X-Men. [pause 200] A rallying cry straight out of the comics and the animated series, and it's James Marsden saying it, more than twenty-five years after he first played Scott Summers. [pause 200] This is the movie's version of Avengers, assemble.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Cyclops",
+     "role": "James Marsden",
+     "start": 0.5,
+     "end": "end-0.3"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "start": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p5_mutants",
+   "type": "clip",
+   "in": "2:24.0",
+   "out": "2:27.0",
+   "music": "high",
+   "vo": "Gambit charges a card. [pause 200] And Mystique... Rebecca Romijn, back in the blue.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Gambit",
+     "role": "Channing Tatum",
+     "start_src": "2:24.1",
+     "end_src": "2:25.35"
+    },
+    {
+     "type": "lower_third",
+     "name": "Mystique",
+     "role": "Rebecca Romijn",
+     "start_src": "2:25.6",
+     "end_src": "2:26.95"
+    }
+   ]
+  },
+  {
+   "id": "p5_charge",
+   "type": "clip",
+   "in": "2:27.0",
+   "out": "2:37.3",
+   "music": "off"
+  },
+  {
+   "id": "p5_twocaps",
+   "type": "freeze",
+   "at": "2:38.6",
+   "reveal": true,
+   "music": "high",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "18%",
+     "x": 0.38,
+     "y": 0.52,
+     "z": 1.35
+    },
+    {
+     "t": "36%",
+     "x": 0.38,
+     "y": 0.52,
+     "z": 1.35
+    },
+    {
+     "t": "52%",
+     "x": 0.75,
+     "y": 0.55,
+     "z": 1.35
+    },
+    {
+     "t": "75%",
+     "z": 1.0
+    }
+   ],
+   "vo": "And then this. [pause 200] Steve Rogers, out of uniform, swinging Mjolnir, crackling with lightning. And on the right of the frame... Sam Wilson, carrying the shield Steve handed him. [pause 200] Two Captain Americas in one shot, and Steve is the one holding the hammer. [pause 200] In Endgame, he proved he was worthy. Here, he's made a habit of it.",
+   "overlays": [
+    {
+     "type": "circle",
+     "x": 0.4,
+     "y": 0.61,
+     "r": 0.07,
+     "start": "16%",
+     "end": "70%",
+     "label": "Mjolnir"
+    },
+    {
+     "type": "circle",
+     "x": 0.81,
+     "y": 0.66,
+     "r": 0.085,
+     "start": "42%",
+     "label": "The shield",
+     "label_side": "left"
+    },
+    {
+     "type": "counter",
+     "n": 13,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "On screen",
+     "start": 1.0
+    }
+   ]
+  },
+  {
+   "id": "p5_finale",
+   "type": "clip",
+   "in": "2:40.4",
+   "out": "2:49.7",
+   "music": "off"
+  },
+  {
+   "id": "p6_speech",
+   "type": "clip",
+   "in": "2:49.7",
+   "out": "3:00.85",
+   "transition": "dip",
+   "music": "off",
+   "chapter": "The post-title scene",
+   "overlays": [
+    {
+     "type": "quote",
+     "text": "That was a good speech back there.",
+     "speaker": "Steve Rogers",
+     "start_src": "2:49.85",
+     "end_src": "2:53.6",
+     "reveal": 1.6
+    }
+   ]
+  },
+  {
+   "id": "p6_beam",
+   "type": "freeze",
+   "at": "3:01.4",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "30%",
+     "x": 0.45,
+     "y": 0.45,
+     "z": 1.25
+    },
+    {
+     "t": "60%",
+     "x": 0.45,
+     "y": 0.45,
+     "z": 1.25
+    },
+    {
+     "t": "end",
+     "x": 0.7,
+     "y": 0.42,
+     "z": 1.2
+    }
+   ],
+   "vo": "The last image before the end card is this: a column of light punching up out of the city, next to an old domed building. [pause 200] In the first Avengers, a beam like that meant a portal was opening over New York. [pause 150] Is this where Doom's war arrives? It's a theory... but it's the very last thing Marvel chose to show us.",
+   "overlays": [
+    {
+     "type": "bracket",
+     "x": 0.45,
+     "y": 0.52,
+     "w": 0.13,
+     "h": 0.5,
+     "start": 1.2,
+     "end": "62%",
+     "label": "Beam of light"
+    },
+    {
+     "type": "counter",
+     "n": 14,
+     "total": 14,
+     "label": "Detail",
+     "start": 0.3
+    },
+    {
+     "type": "tag",
+     "kind": "theory",
+     "start": "55%"
+    }
+   ]
+  },
+  {
+   "id": "end_title",
+   "type": "title",
+   "kicker": "Final thoughts",
+   "title": "What it all means",
+   "bg_at": "1:10.0",
+   "dur": 3.0,
+   "transition": "glitch",
+   "music": "mid",
+   "chapter": "Final thoughts"
+  },
+  {
+   "id": "end_recap",
+   "type": "timeline",
+   "kicker": "The biggest discoveries",
+   "title": "Four things to remember",
+   "transition": "fade",
+   "music": "mid",
+   "highlight": 1,
+   "events": [
+    {
+     "label": "A borrowed life",
+     "sub": "Steve, Peggy, a son",
+     "at": "0:16.0",
+     "tag": "confirmed"
+    },
+    {
+     "label": "A debt",
+     "sub": "Doom's stolen lives",
+     "at": "1:25.2",
+     "tag": "confirmed"
+    },
+    {
+     "label": "Other Earths",
+     "sub": "An incursion?",
+     "at": "1:33.4",
+     "tag": "theory"
+    },
+    {
+     "label": "Two Caps",
+     "sub": "Shield and hammer",
+     "at": "2:38.6",
+     "tag": "confirmed"
+    }
+   ],
+   "vo": "So, the big picture. [pause 150] Steve's happy ending is the emotional center of this movie. Doom believes lives like his were stolen, and he wants them back. [pause 150] There are other Earths in the sky. [pause 150] And when the war comes, it's Steve, Sam, Thor, the Fantastic Four and the X-Men, standing on the same field."
+  },
+  {
+   "id": "end_question",
+   "type": "card",
+   "kicker": "The question",
+   "text": "If Steve's life was stolen... *will Doom make him give it back?*",
+   "bg_at": "0:45.8",
+   "transition": "fade",
+   "music": "low",
+   "vo": "Which leaves me with the question I can't stop thinking about. [pause 200] Doom says, now you must give them back. [pause 250] If Steve's life with Peggy was stolen... does Doomsday make him give it back? [pause 300] Tell me what you think in the comments, and tell me what you spotted that I missed."
+  },
+  {
+   "id": "end_card",
+   "type": "clip",
+   "in": "3:02.4",
+   "out": "3:08.5",
+   "transition": "dip",
+   "music": "low",
+   "vo": "Avengers Doomsday is in theaters December eighteenth."
+  },
+  {
+   "id": "end_black",
+   "type": "black",
+   "dur": 1.2,
+   "transition": "fade",
+   "music": "off"
+  }
+ ]
+}

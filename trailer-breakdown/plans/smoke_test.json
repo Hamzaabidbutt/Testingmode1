@@ -1,0 +1,26 @@
+{
+  "project": {"title": "Smoke test", "source": "media/trailer.mp4", "output": "out/smoke_test.mp4",
+              "resolution": [1920, 1080], "work_dir": "work"},
+  "segments": [
+    {"id": "t_clip", "type": "clip", "in": "0:44.0", "out": "0:46.5",
+     "camera": [{"t": 0, "x": 0.4, "y": 0.45, "z": 1.0}, {"t": "end", "x": 0.4, "y": 0.42, "z": 1.25}],
+     "overlays": [{"type": "lower_third", "name": "Reed Richards", "role": "Pedro Pascal · Fantastic Four", "start": 0.3, "end": "end-0.2"}]},
+    {"id": "t_freeze", "type": "freeze", "at": "1:25.2", "transition": "whip",
+     "vo": "Look at who is standing behind him... [pause 300] three figures, and they are not soldiers.",
+     "overlays": [
+       {"type": "spotlight", "x": 0.5, "y": 0.5, "r": 0.13, "start": 0.4},
+       {"type": "circle", "x": 0.5, "y": 0.47, "r": 0.09, "start": 0.6, "label": "Doom"},
+       {"type": "tag", "kind": "confirmed", "start": 1.0, "text": "Latverian Witches"},
+       {"type": "hud", "start": 0.1}]},
+    {"id": "t_title", "type": "title", "number": 1, "kicker": "Part one", "title": "The Return", "sub": "Steve Rogers' new life", "bg_at": "0:45.6", "dur": 3.2, "transition": "glitch"},
+    {"id": "t_split", "type": "split", "title": "Then vs now", "match": "=", "transition": "fade", "dur": 4,
+     "left": {"at": "0:18.0", "label": "0:18", "caption": "The shield in the workshop"},
+     "right": {"at": "1:55.8", "label": "1:55", "caption": "Back in battle"}},
+    {"id": "t_quote", "type": "clip", "in": "0:56.3", "out": "1:01.2", "transition": "dip",
+     "overlays": [{"type": "quote", "text": "We did what we had to do to make the *world right*", "speaker": "Steve Rogers", "start": 0.2, "end": "end-0.1"}]},
+    {"id": "t_timeline", "type": "timeline", "kicker": "Chronology", "title": "How we got here", "dur": 5, "transition": "zoom",
+     "events": [{"label": "Endgame", "sub": "2023 · Steve stays", "at": "0:03.0"}, {"label": "A family", "sub": "decades pass", "at": "0:16.0"},
+                {"label": "The visitors", "sub": "Fantastic Four", "at": "0:44.5", "tag": "confirmed"}, {"label": "Doomsday", "sub": "Dec 18, 2026", "tag": "theory"}], "highlight": 2},
+    {"id": "t_card", "type": "card", "kicker": "The question", "text": "Who gave Steve his life back, and *what does it cost?*", "dur": 3.5, "transition": "flash"}
+  ]
+}
