@@ -20,7 +20,7 @@
   "duck_src_db": -17,
   "lufs": -14,
   "crf": 17,
-  "preset": "medium",
+  "preset": "fast",
   "burn_captions": false,
   "intro_chapter": "Cold open"
  },
