@@ -1043,13 +1043,51 @@
    "music": "mid"
   },
   {
+   "id": "p3_rdj",
+   "type": "freeze",
+   "at": "1:24.6",
+   "music": "mid",
+   "camera": [
+    {
+     "t": 0,
+     "z": 1.0
+    },
+    {
+     "t": "end",
+     "x": 0.5,
+     "y": 0.45,
+     "z": 1.12,
+     "ease": "linear"
+    }
+   ],
+   "vo": "Back to Doom... [pause 150] played by Robert Downey Junior. The same actor whose arc reactor we just saw floating on that wreath.",
+   "overlays": [
+    {
+     "type": "lower_third",
+     "name": "Doctor Doom",
+     "role": "Robert Downey Jr.",
+     "start": 0.6,
+     "end": "end-0.4"
+    },
+    {
+     "type": "tag",
+     "kind": "confirmed",
+     "label": "Casting",
+     "text": "Announced at Comic-Con 2024",
+     "start": 1.4,
+     "end": "end-0.4"
+    }
+   ]
+  },
+  {
    "id": "p3_cathedral",
    "type": "clip",
    "in": "1:23.55",
    "out": "1:26.7",
    "music": "mid",
-   "vo": "Back to Doom. He's standing in what looks like a cathedral, green light pouring through stained glass... [pause 150] and he's not alone.",
-   "min_speed": 0.4
+   "vo": "He's standing in what looks like a cathedral, green light pouring through stained glass... [pause 150] and he's not alone.",
+   "min_speed": 0.4,
+   "transition": "whip"
   },
   {
    "id": "p3_witches",
